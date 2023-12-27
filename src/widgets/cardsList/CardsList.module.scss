@@ -1,0 +1,26 @@
+@import "~/app/styles/variables.module";
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 13px;
+
+  svg {
+    height: 24px;
+  }
+}
+
+.list {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $padding;
+
+  li {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}

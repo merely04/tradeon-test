@@ -1,0 +1,11 @@
+@import "~/app/styles/variables.module";
+
+$container-width: 1200px;
+
+.container {
+  width: 100%;
+  max-width: calc(#{$padding} * 2 + $container-width);
+  min-width: calc(#{$padding} * 2 + $container-width);
+  padding: 0 $padding;
+  margin: 0 auto;
+}

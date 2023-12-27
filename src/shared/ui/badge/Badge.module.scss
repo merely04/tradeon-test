@@ -1,0 +1,21 @@
+@import "~/app/styles/variables.module";
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 9px;
+  border-radius: 14px;
+  color: $text-color;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.green {
+  background-color: rgba($color: #44F194, $alpha: 0.2);
+}
+
+.red {
+  background-color: rgba($color: #FF4E78, $alpha: 0.2);
+}

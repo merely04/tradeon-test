@@ -1,0 +1,109 @@
+.card {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #191D3E;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 35px 30px;
+  background: url("./icons/header-background.svg");
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+}
+
+.iconFilter {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 76px;
+  left: -10px;
+  filter: blur(100px);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.name {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+.badgesList {
+  display: flex;
+  gap: 8px;
+}
+
+.body {
+  padding: 30px;
+  border-top: 1px solid rgba($color: #99B8EC, $alpha: 0.15);
+  background: linear-gradient(180deg, rgba(43, 48, 86, 0.20) 0%, rgba(43, 48, 86, 0.00) 100%);
+  backdrop-filter: blur(12.5px);
+}
+
+.propertiesList {
+  display: grid;
+  gap: 20px;
+}
+
+.property {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  white-space: nowrap;
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #2B3056 50%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  .red {
+    color: #FF4E78;
+  }
+}
+
+.editContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.editButton {
+  gap: 8px;
+  color: #7B8BBD;
+}
+
+.extension {
+  margin-top: 40px;
+  font-size: 12px;
+
+  span {
+    color: #7B8BBD;
+  }
+}
+
+.button {
+  margin-top: 15px;
+}

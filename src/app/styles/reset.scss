@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  text-decoration: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
